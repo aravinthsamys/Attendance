@@ -24,9 +24,9 @@ if ENVIRONMENT == 'development':
 else:
     DEBUG = False    
 
-ALLOWED_HOSTS = ['localhost','127.0.0.1','attendance.onrender.com']
+ALLOWED_HOSTS = ['localhost','127.0.0.1','attendance-xfbv.onrender.com']
 
-CSRF_TRUSTED_ORIGINS =['https://attendance.onrender.com']
+CSRF_TRUSTED_ORIGINS =['https://attendance-xfbv.onrender.com']
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
